@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --color-brandprimary: #4A628A;
+        --color-brandsecondary: #7AB2D3;
+        --color-brandtertiary: #B9E5E8;
+        --color-brandgeneral: #DFF2EB;
+        --color-textprimary: #000000;
+        --color-textsecondary: #808080;
+        --color-textprimaryinverse: #FFFFFF;
+    }
+}
+
+@layer components {
+    .heading-l {
+        background-color: transparent;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .heading-m {
+        background-color: transparent;
+        font-size: 21px;
+        font-weight: 300;
+    }
+}
