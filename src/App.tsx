@@ -1,8 +1,13 @@
 import React from "react";
+import Theme from "./Theme";
+
 
 const App: React.FC = () => {
   return (
-   <div>hello world</div>
+    <>
+    <Theme></Theme>
+    </>
+  
   );
 };
 
